@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .big-box{
+                display: flex;
+                width: 520px; 
+                flex-direction: column;
+                border-radius: 10px;
+
+            }
+            .small-box{
+                display: flex; 
+                width: 500px;
+            }
+            .info{
+              display: flex;
+              flex-direction: column; 
+              margin-left: 15px;
+              font-size: 18px;
+
+            }
+            .button{        
+                margin-left: 300px;
+                margin-top: 30px;
+            }
+        </style>
+        <title>lesson 12</title>
+    </head>
+    <body style="padding-bottom: 500px;">
+        <div style="display: flex ; margin-bottom: 30px;">
+            <div style="width: 200px; background-color: lightblue;">200px</div>
+            <div style="width: 75px;background-color: lightpink;">75px</div>
+        </div>
+        <div style="display: flex ; margin-bottom: 30px;">
+            <div style="width: 50px; background-color: lightblue;">item1</div>
+            <div style="flex: 1 ;background-color: lightpink;">item2</div>
+            <div style="width: 70px; background-color: lightblue;">item3</div>
+        </div>
+        <div style="display: flex ; margin-bottom: 30px; justify-content: space-between;">
+            <div style=" background-color: lightpink;">item1</div>
+            <div style=" background-color: lightpink;">item2</div>
+            <div style=" background-color: lightpink;">item3</div>
+            <div style=" background-color: lightpink;">item4</div>
+        </div>
+        <div style="display: flex; width: 520px;border: solid;border-width: 1px; border-color: black;flex-direction: column;border-radius: 10px;">
+            <div style="display: flex;width: 480px;margin-top: 8px; margin-left: 10px ; margin-bottom: 20px;font-weight: bold;">Home<button style="margin-left: 420px;border-radius: 10px;padding-left: 7px;padding-right: 7px;background-color: rgb(16, 126, 170);color: white;">14</button></div>
+            <div style="display: flex;width: 480px;margin-top: 8px; margin-left: 10px ; margin-bottom: 20px;font-weight: bold;">Notification<button style="margin-left: 385px;border-radius: 10px;padding-left: 7px;padding-right: 7px;background-color: rgb(16, 126, 170);color: white;">3</button></div>
+            <div style="display: flex;width: 480px;margin-top: 8px; margin-left: 10px ; margin-bottom: 8px;font-weight: bold;">Message<button style="margin-left: 409px;border-radius: 10px;padding-left: 7px;padding-right: 7px;background-color: rgb(16, 126, 170);color: white;">3</button></div>     
+        </div>
+        <br>
+
+        <div class="big-box">
+            <div class="small-box">
+                <div style="display: flex; width: 60px;height: 60px;"> <img style="width: 100%;height: 100%; border-radius: 35px; margin-top: 13px;margin-right: 8px;" src="Blog9.jpg" alt="cat"></div>
+                <div class="info">
+                    <p style="margin-bottom: 0px;margin-top: 8px;font-weight: bold;">oliver</p>
+                    <p style="margin-top: 2px;margin-bottom: 2px;">the cat</p>
+                    <p style="margin-top: 0px;">popular</p>
+                </div>
+                <div class="button"><button style="padding: 5px;padding-left: 10px;padding-right: 10px;background-color: rgb(84, 84, 255); color: aliceblue; border: none;">Follow</button></div>
+            </div> 
+            <div class="small-box">
+                <div style="display: flex; width: 60px;height: 60px;"> <img style="width: 100%;height: 100%; border-radius: 35px; margin-top: 13px;margin-right: 8px;" src="Blog9.jpg" alt="cat"></div>
+                <div class="info">
+                    <p style="margin-bottom: 0px;margin-top: 8px;font-weight: bold;">oliver</p>
+                    <p style="margin-top: 2px;margin-bottom: 2px;">the cat</p>
+                    <p style="margin-top: 0px;">popular</p>
+                </div>
+                <div class="button"><button style="padding: 5px;padding-left: 10px;padding-right: 10px;background-color: rgb(84, 84, 255); color: aliceblue; border: none;">Follow</button></div>
+            </div>
+            <div class="small-box">
+                <div style="display: flex; width: 60px;height: 60px;"> <img style="width: 100%;height: 100%; border-radius: 35px; margin-top: 13px;margin-right: 8px;" src="Blog9.jpg" alt="cat"></div>
+                <div class="info">
+                    <p style="margin-bottom: 0px;margin-top: 8px;font-weight: bold;">oliver</p>
+                    <p style="margin-top: 2px;margin-bottom: 2px;">the cat</p>
+                    <p style="margin-top: 0px;">popular</p>
+                </div>
+                <div class="button"><button style="padding: 5px;padding-left: 10px;padding-right: 10px;background-color: rgb(84, 84, 255); color: aliceblue; border: none;">Follow</button></div>
+            </div>
+         </div>
+         <br>
+         <div style="display: flex; width: 980px;background-color: rgb(195, 4, 195); ">
+            <div style="display: flex; width: 280px; margin-left: 15px;margin-right: 5px;"> <p style="color: white;">Home</p></div>
+            <div style="display: flex; flex: 1;margin-top: 10px;margin-bottom: 10px;"> <input style="width: 500px;border-radius: 50px;border: none; padding-left: 15px;" type="text" placeholder="Search"> </div>
+            <div style="width: 230px;margin-top: 10px;margin-left: 230px;"><button style="padding-top: 5px;padding-bottom: 5px;padding-left: 13px;padding-right: 13px;border: solid;border-color: white;background-color: rgb(195, 4, 195); border-width: 1px;color: white ;margin-top: 1px;">Download</button></div>
+         </div>
+    </body>
+</html>
